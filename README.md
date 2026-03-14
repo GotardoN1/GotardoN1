@@ -21,5 +21,5 @@ Sou um profissional de Tecnologia da Informação atuando como **Analista de Inf
 
 
 ## 📫 Contato e Conexões
-* **LinkedIn:** [Acesse o meu perfil profissional]([https://www.linkedin.com/in/SEU_LINKEDIN_AQUI](https://www.linkedin.com/in/matheus-gotardo-680b3232b/))
+* **LinkedIn:** [https://www.linkedin.com/in/matheus-gotardo-680b3232b]
 * **E-mail:** [luh20123@gmail.com]
