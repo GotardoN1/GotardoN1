@@ -128,14 +128,14 @@ hobbies:
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=GotardoN1&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=GotardoN1&theme=radical&hide_border=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=GotardoN1&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" />
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=GotardoN1&theme=radical&hide_border=true" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=GotardoN1&theme=radical&hide_border=true&area=true" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=GotardoN1&theme=radical&hide_border=true&area=true" width="100%" />
 
 </div>
 
@@ -151,7 +151,7 @@ hobbies:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=GotardoN1&theme=algolia&no-frame=true&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=GotardoN1&theme=algolia&no-frame=true&column=7" width="100%" />
 
 </div>
 
@@ -163,7 +163,7 @@ hobbies:
 
 <!-- Animação snake - para ativar, crie um GitHub Action no seu repo GotardoN1 -->
 <!-- Instruções: https://github.com/Platane/snk -->
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-snake-dark.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-snake-dark.svg" width="100%" alt="snake animation" />
 
 </div>
 
