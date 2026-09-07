@@ -1,10 +1,36 @@
+<!-- PERFIL INTERATIVO MODERNO -->
 <div align="center">
 
-<!-- BANNER / TÍTULO -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%3E+Ol%C3%A1%2C+eu+sou+o+Matheus+Gotardo+%F0%9F%91%8B;Analista+de+Infraestrutura+%2F+Dados" alt="Typing SVG" />
+<!-- Animação de digitação -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=👋+Olá%2C+eu+sou+o+Matheus+Gotardo;💼+Analista+de+Infraestrutura+%2F+Dados;🚀+Criador+do+G435+Companion;💡+Transformando+ideias+em+soluções" alt="Typing SVG" />
 
-<!-- SEPARADOR -->
-<img src="https://komarev.com/ghpvc/?username=GotardoN1&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+<br/>
+
+<!-- Avatar com efeito -->
+<img src="https://github.com/GotardoN1.png" width="140" height="140" style="border-radius: 50%; border: 3px solid #00D4FF; box-shadow: 0 0 30px rgba(0,212,255,0.4); animation: float 3s ease-in-out infinite;" />
+
+<br/>
+
+<!-- Badges animadas -->
+<a href="https://github.com/GotardoN1">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/matheus-gotardo-680b3232b">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:luh20123@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<br/>
+
+<!-- Stats rápidas -->
+<a href="https://github.com/GotardoN1">
+<img src="https://komarev.com/ghpvc/?username=GotardoN1&label=Profile%20Views&color=0e75b6&style=flat" />
+</a>
+<a href="https://github.com/GotardoN1?tab=repositories">
+<img src="https://img.shields.io/badge/Repositórios-9-blue?style=flat-square" />
+</a>
 
 </div>
 
@@ -12,19 +38,24 @@
 
 ## 🔥 Sobre Mim
 
+<div align="center">
+
 ```yaml
 localização: "Brasil 🇧🇷"
 formação: "Tecnologia da Informação"
 atuação: "Infraestrutura & Dados"
-focus:
-  - "Alta disponibilidade e segurança de ambientes corporativos"
-  - "Gestão de redes, firewalls e virtualização"
-  - "Análise de dados e otimização de processos"
-hobbies:
-  - "Explorar novas tecnologias"
-  - "Resolver problemas complexos"
-  - "Construir soluções que fazem diferença"
+missão: "Construir soluções que fazem diferença"
 ```
+
+</div>
+
+<div align="center">
+
+💡 Apaixonado por tecnologia, infraestrutura robusta e dados.  
+🎯 Foco em alta disponibilidade, segurança e automação.  
+🤝 Aberto a colaborar em projetos inovadores.
+
+</div>
 
 ---
 
@@ -32,22 +63,25 @@ hobbies:
 
 <div align="center">
 
-### Infraestrutura & Redes
+### 🖥️ Infraestrutura & Redes
 <img src="https://img.shields.io/badge/Proxmox-0D93F3?style=for-the-badge&logo=proxmox&logoColor=white" />
 <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenVPN-FF6C00?style=for-the-badge&logo=openvpn&logoColor=white" />
 <img src="https://img.shields.io/badge/Cisco-1BA0D8?style=for-the-badge&logo=cisco&logoColor=white" />
 
-### Gestão & Monitoramento
+### 📊 Gestão & Monitoramento
 <img src="https://img.shields.io/badge/GLPI-2E3440?style=for-the-badge&logo=glpi&logoColor=white" />
 <img src="https://img.shields.io/badge/Snipe--IT-FF4444?style=for-the-badge&logo=snipeit&logoColor=white" />
 
-### Programação & Análise
+### 🛠️ Programação & Ferramentas
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
 
 </div>
 
@@ -57,67 +91,19 @@ hobbies:
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%">
-
-### 🔍 Sistema de Medição e Orçamento de Obras com OCR
-> Solução desktop com reconhecimento óptico de caracteres para automação de medição e orçamento de obras. Integrando OCR com inteligência artificial para extração automática de dados.
-
-`Python` `OCR` `Desktop`
-
-</td>
-<td width="50%">
-
-### 📊 BI Aplicado à Eficiência Energética
-> Projeto de Business Intelligence focado em análise de dados de eficiência energética, trazendo insights valiosos para tomada de decisão baseada em dados.
-
-`Python` `Power BI` `Analytics`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🏗️ Trena Digital com UX e ML
-> Aplicação inovadora que combina design de experiência do usuário com Machine Learning para medição digital, modernizando processos tradicionais de construção civil.
-
-`Python` `ML` `UX`
-
-</td>
-<td width="50%">
-
-### 🌐 Grafo Social
-> Implementação de estrutura de dados baseada em grafos para modelagem de redes sociais, explorando relações e conexões entre nós.
-
-`Python` `Grafos` `Data Structures`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🎮 Pong - Open 3D Engine (O3DE)
-> Implementação do clássico Pong utilizando a engine 3D Open Source O3DE, explorando programação de jogos e gráficos computacionais.
-
-`Python` `Game Dev` `O3DE`
-
-</td>
-<td width="50%">
-
-### 🌱 Sustentabilidade Energética e Análise de RECs
-> Estudo e análise de instrumentos de sustentabilidade energética, incluindo Certificados de Energia Renovável (RECs).
-
-`Pesquisa` `Energia` `Sustentabilidade`
-
-</td>
-</tr>
-</table>
+| Projeto | Descrição | Tech |
+|---------|-----------|------|
+| 🎧 **G435 Companion** | Painel desktop para controle de volume, mute e bateria do Logitech G435 no Windows. Interface interativa com animações e restauração inteligente. | `C#` `WinForms` `Core Audio` `PowerShell` |
+| 🌐 **Site Pessoal** | Página de perfil interativa e moderna com design responsivo e animações suaves. | `HTML` `CSS` `Design` |
+| 🔍 **Sistema de Medição com OCR** | Solução desktop com reconhecimento óptico de caracteres para automação de medição e orçamento de obras. | `Python` `OCR` `Desktop` |
+| 📊 **BI Eficiência Energética** | Projeto de Business Intelligence focado em análise de dados de eficiência energética. | `Python` `Power BI` `Analytics` |
+| 🏗️ **Trena Digital com UX e ML** | Aplicação que combina UX com Machine Learning para medição digital em construção civil. | `Python` `ML` `UX` |
+| 🌱 **Sustentabilidade Energética** | Estudo e análise de instrumentos de sustentabilidade energética e Certificados de Energia Renovável. | `Pesquisa` `Energia` `Sustentabilidade` |
 
 <br/>
 
 <a href="https://github.com/GotardoN1?tab=repositories">
-<img src="https://img.shields.io/badge/Ver_Todos_os_Projetos-0D93F3?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Ver_Todos_os_Projetos-00D4FF?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
@@ -129,6 +115,7 @@ hobbies:
 <div align="center">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GotardoN1&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" />
+
 <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=GotardoN1&theme=radical&hide_border=true" />
 
 </div>
@@ -157,12 +144,10 @@ hobbies:
 
 ---
 
-## 🐍 contribuições animadas
+## 🐍 Contribuições Animadas
 
 <div align="center">
 
-<!-- Animação snake - para ativar, crie um GitHub Action no seu repo GotardoN1 -->
-<!-- Instruções: https://github.com/Platane/snk -->
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-snake-dark.svg" width="100%" alt="snake animation" />
 
 </div>
@@ -189,10 +174,9 @@ hobbies:
 
 <div align="center">
 
-<!-- FRASE MOTIVACIONAL -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=300&size=14&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=60&lines=%22Transformando+dados+em+decis%C3%B5es%3B+infraestrutura+em+confian%C3%A7a.%22" alt="Typing SVG" />
+✨ *"Transformando dados em decisões; infraestrutura em confiança."* ✨
 
-<br/><br/>
+<br/>
 
 <img src="https://i.imgur.com/dt1hW6Y.gif" width="300" />
 
