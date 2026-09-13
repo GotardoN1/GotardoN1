@@ -131,7 +131,7 @@ Aberto a colaborar em projetos inovadores! 🚀
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GotardoN1/GotardoN1/output/github-snake.svg" width="100%" alt="Snake Animation" />
+<img src="https://raw.githubusercontent.com/GotardoN1/GotardoN1/main/output/github-snake.svg" width="100%" alt="Snake Animation" />
 
 </div>
 
