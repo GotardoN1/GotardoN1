@@ -1,8 +1,8 @@
-name: 🐍 Snake
+name: Snake
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,17 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          output: ./output/github-snake.svg
-      - name: Commit snake
+          github_user_name: GotardoN1
+          outputs: |
+            ./output/github-snake.svg
+      - name: Setup git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Commit snake
+        run: |
           git add ./output/github-snake.svg
           git commit -m "chore: update snake animation" || echo "Nothing to update"
           git push
