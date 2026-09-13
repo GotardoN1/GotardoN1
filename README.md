@@ -7,7 +7,7 @@
 <br/>
 
 <!-- Avatar com borda de contraste (GitHub suporta border e border-radius) -->
-<img src="https://github.com/GotardoN1.png" width="150" height="150" style="border-radius: 50%; border: 4px solid #00D4FF; box-shadow: 0 0 30px #00D4FF40;" alt="Avatar" />
+<img src="https://github.com/GotardoN1.png" width="150" height="150" style="border-radius: 50%; border: 4px solid #00D4FF;" alt="Avatar" />
 
 <br/>
 
@@ -175,16 +175,16 @@ $ ./projects --featured --all
 <div align="center">
 
 <!-- Stats principais -->
-<img height="200em" src="https://github-readme-stats.vercel.app/api?username=GotardoN1&show_icons=true&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&bg_color=1a1a2e&title_color=00D4FF&icon_color=00D4FF&text_color=c9d1d9&border_color=00D4FF" alt="GitHub Stats" />
+<img height="200" src="https://github-readme-stats.vercel.app/api?username=GotardoN1&show_icons=true&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&bg_color=1a1a2e&title_color=00D4FF&icon_color=00D4FF&text_color=c9d1d9&border_color=00D4FF" alt="GitHub Stats" />
 
 <!-- Streak stats -->
-<img height="200em" src="https://github-readme-streak-stats.herokuapp.com/?user=GotardoN1&theme=tokyonight&hide_border=false&background=1a1a2e&stroke=00D4FF&ring=00D4FF&fire=FF00C8&currStreakLabel=00D4FF&sideLabels=c9d1d9&currStreakNum=FF00C8&key=00D4FF" alt="Streak Stats" />
+<img height="200" src="https://streak-stats.demolab.com/?user=GotardoN1&theme=tokyonight&hide_border=false&background=1a1a2e&stroke=00D4FF&ring=00D4FF&fire=FF00C8&currStreakLabel=00D4FF&sideLabels=c9d1d9&currStreakNum=FF00C8&key=00D4FF" alt="Streak Stats" />
 
 <!-- Activity graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=GotardoN1&theme=tokyonight&hide_border=false&bg_color=1a1a2e&color=00D4FF&line=7B2CBF&area=true&area_color=7B2CBF&area_bg_color=1a1a2e&title=00D4FF" width="100%" alt="Activity Graph" />
 
 <!-- Top languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GotardoN1&layout=compact&theme=tokyonight&hide_border=false&bg_color=1a1a2e&title_color=00D4FF&text_color=c9d1d9&border_color=00D4FF" width="400em" alt="Top Languages" />
+<img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GotardoN1&layout=compact&theme=tokyonight&hide_border=false&bg_color=1a1a2e&title_color=00D4FF&text_color=c9d1d9&border_color=00D4FF" alt="Top Languages" />
 
 </div>
 
@@ -259,7 +259,7 @@ $ ./projects --featured --all
 <br/><br/>
 
 <!-- GIF decorativo -->
-<img src="https://i.imgur.com/dt1hW6Y.gif" width="300" style="border-radius: 20px;" />
+<img src="https://i.imgur.com/dt1hW6Y.gif" width="300" />
 
 <br/>
 

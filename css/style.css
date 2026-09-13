@@ -514,7 +514,6 @@ section {
     overflow: hidden;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
-    group-hover: transform 0.3s;
 }
 
 .project-card:hover {
