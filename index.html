@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matheus Gotardo - Analista de Dados & Jornalista</title>
+    <meta name="description" content="Matheus Gotardo - Analista de Infraestrutura & Dados. Especialista em alta disponibilidade, segurança e automação.">
+    <meta name="keywords" content="infraestrutura, dados, automação, python, c#, devops, cybersecurity">
+    <meta name="author" content="Matheus Gotardo">
+    <meta property="og:title" content="Matheus Gotardo - Infraestrutura & Dados">
+    <meta property="og:description" content="Especialista em alta disponibilidade, segurança e automação.">
+    <meta property="og:image" content="https://github.com/GotardoN1.png">
+    <meta property="og:url" content="https://gotardon1.github.io">
+    <title>Matheus Gotardo — Infraestrutura & Dados</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%2300D4FF'/%3E%3Ctext x='50' y='60' text-anchor='middle' fill='white' font-size='30' font-family='sans-serif'%3E%3C/svg%3E">
 </head>
 <body>
+    <!-- Cursor personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
     <!-- Header -->
     <header class="header">
-        <nav class="nav">
+        <nav class="nav container">
             <div class="nav-brand">
-                <h1>Matheus Gotardo</h1>
+                <span class="logo-gradient">Matheus Gotardo</span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projetos" class="nav-link">Projetos</a></li>
-                <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                <li><a href="#stats" class="nav-link">Stats</a></li>
                 <li><a href="#contato" class="nav-link">Contato</a></li>
             </ul>
             <div class="hamburger">
@@ -33,51 +46,142 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Matheus Gotardo</h1>
-                <p class="hero-subtitle">Analista de Dados & Jornalista</p>
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span> Online e disponível para colaborações
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Olá, eu sou o</span>
+                    <span class="title-gradient">Matheus Gotardo</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="typing-text"></span>
+                </p>
                 <p class="hero-description">
-                    Especialista em análise de dados e jornalismo digital, com foco em tecnologia e jogos digitais.
-                    Transformando dados em insights e histórias em conteúdo envolvente.
+                    Analista de Infraestrutura & Dados especializado em <strong>alta disponibilidade</strong>,
+                    <strong>segurança</strong> e <strong>automação</strong>. Transformo dados em decisões
+                    e infraestrutura em confiança.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
-                    <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+                    <a href="#contato" class="btn btn-secondary">Falar Comigo</a>
+                </div>
+            </div>
+        </div>
+        <!-- Partículas flutuantes -->
+        <div class="particles"></div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="about section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01</span> Sobre Mim
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou Matheus Gotardo, profissional atuante na área de Infraestrutura & Dados.
+                        Trabalho com <strong>alta disponibilidade</strong>, <strong>segurança da informação</strong>
+                        e <strong>automação de processos</strong>, utilizando ferramentas avançadas para
+                        extrair insights valiosos e construir soluções robustas.
+                    </p>
+                    <p>
+                        Meu foco está em <strong>transformar dados em decisões</strong> e
+                        <strong>infraestrutura em confiança</strong>, criando soluções que fazem diferença.
+                        Atualmente envolvido em projetos como o <strong>G435 Companion</strong>,
+                        automação de medição com OCR e análise de eficiência energética.
+                    </p>
+                    <div class="skills-preview">
+                        <div class="skill-badge">Python</div>
+                        <div class="skill-badge">C#</div>
+                        <div class="skill-badge">PowerShell</div>
+                        <div class="skill-badge">Docker</div>
+                        <div class="skill-badge">Linux</div>
+                        <div class="skill-badge">Proxmox</div>
+                        <div class="skill-badge">pfSense</div>
+                        <div class="skill-badge">Power BI</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sobre Section -->
-    <section id="sobre" class="about">
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section">
         <div class="container">
-            <h2 class="section-title">Sobre Mim</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        Sou Matheus Gotardo, profissional atuante nas áreas de análise de dados e jornalismo digital. 
-                        Atualmente trabalho como Analista de Dados na Omar Calçados, onde utilizo ferramentas avançadas 
-                        para extrair insights valiosos dos dados empresariais.
-                    </p>
-                    <p>
-                        Paralelamente, atuo como Jornalista Chefe no site Battlehub, onde combino minha paixão por 
-                        tecnologia e jogos digitais com habilidades jornalísticas para criar conteúdo de qualidade 
-                        para a comunidade gamer.
-                    </p>
-                    <div class="skills">
-                        <h3>Habilidades Principais</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <h4>Análise de Dados</h4>
-                                <p>Python, SQL, Power BI, Excel</p>
-                            </div>
-                            <div class="skill-item">
-                                <h4>Jornalismo Digital</h4>
-                                <p>Redação, Edição, SEO, CMS</p>
-                            </div>
-                            <div class="skill-item">
-                                <h4>Tecnologia</h4>
-                                <p>Web Development, Gaming, Tech Trends</p>
-                            </div>
+            <h2 class="section-title">
+                <span class="section-number">02</span> Tecnologias & Skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🖥️ Infraestrutura & Redes</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Proxmox-0D93F3?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" alt="pfSense" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/OpenVPN-FF6C00?style=for-the-badge&logo=openvpn&logoColor=white" alt="OpenVPN" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Cisco-1BA0D8?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">📊 Gestão & Monitoramento</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/GLPI-2E3440?style=for-the-badge&logo=glpi&logoColor=white" alt="GLPI" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Snipe-IT-FF4444?style=for-the-badge&logo=snipeit&logoColor=white" alt="Snipe-IT" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Prometheus-0099CC?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Grafana-F46841?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Power_BI-F1B72B?style=for-the-badge&logo=power-bi&logoColor=white" alt="Power BI" />
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🛠️ Programação & Ferramentas</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
                         </div>
                     </div>
                 </div>
@@ -86,127 +190,166 @@
     </section>
 
     <!-- Projetos Section -->
-    <section id="projetos" class="projects">
+    <section id="projetos" class="projects section">
         <div class="container">
-            <h2 class="section-title">Projetos</h2>
+            <h2 class="section-title">
+                <span class="section-number">03</span> Projetos
+            </h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="placeholder-image">📊</div>
+                        <div class="project-icon">🎧</div>
                     </div>
                     <div class="project-content">
-                        <h3>Dashboard de Vendas - Omar Calçados</h3>
-                        <p>Sistema de análise de vendas em tempo real com visualizações interativas e KPIs estratégicos.</p>
+                        <h3>G435 Companion</h3>
+                        <p>Painel desktop para controle de volume, mute e bateria do Logitech G435 no Windows. Interface interativa com animações e restauração inteligente.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Power BI</span>
-                            <span class="tech-tag">SQL</span>
-                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">WinForms</span>
+                            <span class="tech-tag">Core Audio</span>
+                            <span class="tech-tag">PowerShell</span>
                         </div>
+                        <a href="https://github.com/GotardoN1/G435-Companion" class="project-link">Ver no GitHub →</a>
                     </div>
                 </div>
-
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="placeholder-image">🎮</div>
+                        <div class="project-icon">🌐</div>
                     </div>
                     <div class="project-content">
-                        <h3>Portal Battlehub</h3>
-                        <p>Site de notícias e reviews sobre jogos digitais com sistema de CMS personalizado.</p>
+                        <h3>Site Pessoal</h3>
+                        <p>Página de perfil interativa e moderna com design responsivo e animações suaves.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">WordPress</span>
-                            <span class="tech-tag">SEO</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/GotardoN1/GotardoN1" class="project-link">Ver no GitHub →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">🔍</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Medição com OCR</h3>
+                        <p>Solução desktop com reconhecimento óptico de caracteres para automação de medição e orçamento de obras.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OCR</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                        <a href="https://github.com/GotardoN1/Sistema-de-Medicao-e-Orcamento-de-Obras-com-OCR" class="project-link">Ver no GitHub →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">📊</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>BI Eficiência Energética</h3>
+                        <p>Projeto de Business Intelligence focado em análise de dados de eficiência energética.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Power BI</span>
                             <span class="tech-tag">Analytics</span>
                         </div>
+                        <a href="https://github.com/GotardoN1/BI-Eficiencia-Energetica" class="project-link">Ver no GitHub →</a>
                     </div>
                 </div>
-
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="placeholder-image">📈</div>
+                        <div class="project-icon">🏗️</div>
                     </div>
                     <div class="project-content">
-                        <h3>Análise de Tendências Gaming</h3>
-                        <p>Estudo de mercado sobre tendências em jogos digitais usando análise de dados de redes sociais.</p>
+                        <h3>Trena Digital com UX e ML</h3>
+                        <p>Aplicação que combina UX com Machine Learning para medição digital em construção civil.</p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Data Mining</span>
-                            <span class="tech-tag">Visualization</span>
+                            <span class="tech-tag">ML</span>
+                            <span class="tech-tag">UX</span>
                         </div>
+                        <a href="https://github.com/GotardoN1/trena-digital-ux-ml" class="project-link">Ver no GitHub →</a>
                     </div>
                 </div>
-
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="placeholder-image">🔍</div>
+                        <div class="project-icon">🌱</div>
                     </div>
                     <div class="project-content">
-                        <h3>Sistema de Recomendação</h3>
-                        <p>Algoritmo de recomendação de produtos baseado em comportamento do cliente.</p>
+                        <h3>Sustentabilidade Energética</h3>
+                        <p>Estudo e análise de instrumentos de sustentabilidade energética e Certificados de Energia Renovável.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Machine Learning</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Pesquisa</span>
+                            <span class="tech-tag">Energia</span>
+                            <span class="tech-tag">Sustentabilidade</span>
                         </div>
+                        <a href="https://github.com/GotardoN1/Sustentabilidade-Energetica-e-Analise-de-RECs" class="project-link">Ver no GitHub →</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experiência Section -->
-    <section id="experiencia" class="experience">
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section section">
         <div class="container">
-            <h2 class="section-title">Experiência Profissional</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Analista de Dados</h3>
-                        <h4>Omar Calçados</h4>
-                        <p class="timeline-period">Atual</p>
-                        <p>Responsável pela análise de dados de vendas, criação de dashboards e relatórios estratégicos. 
-                           Desenvolvimento de modelos preditivos para otimização de estoque e vendas.</p>
-                    </div>
+            <h2 class="section-title">
+                <span class="section-number">04</span> Estatísticas GitHub
+            </h2>
+            <div class="stats-container">
+                <div class="stats-card">
+                    <img src="https://github-readme-stats.vercel.app/api?username=GotardoN1&show_icons=true&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Jornalista Chefe</h3>
-                        <h4>Battlehub</h4>
-                        <p class="timeline-period">Atual</p>
-                        <p>Liderança da equipe editorial, criação de conteúdo sobre jogos digitais e tecnologia. 
-                           Gestão de estratégias de SEO e crescimento da audiência.</p>
-                    </div>
+                <div class="stats-card">
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=GotardoN1&theme=tokyonight&hide_border=false" alt="Streak Stats" />
+                </div>
+                <div class="stats-card full-width">
+                    <img src="https://github-readme-activity-graph.vercel.app/graph?username=GotardoN1&theme=tokyonight&hide_border=false" alt="Activity Graph" />
+                </div>
+                <div class="stats-card">
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GotardoN1&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" />
+                </div>
+                <div class="stats-card">
+                    <img src="https://github-profile-trophy.vercel.app/?username=GotardoN1&theme=algolia&no-frame=true&column=7" alt="Trophies" />
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contato Section -->
-    <section id="contato" class="contact">
+    <section id="contato" class="contact section">
         <div class="container">
-            <h2 class="section-title">Entre em Contato</h2>
+            <h2 class="section-title">
+                <span class="section-number">05</span> Contato
+            </h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Vamos conversar?</h3>
-                    <p>Estou sempre aberto a novas oportunidades e colaborações interessantes.</p>
+                    <p>
+                        Estou sempre aberto a novas oportunidades e colaborações interessantes.
+                        Se você tem um projeto inovador ou precisa de ajuda com infraestrutura,
+                        dados ou automação, entre em contato!
+                    </p>
                     <div class="contact-links">
-                        <a href="mailto:matheus.gotardo@email.com" class="contact-link">
+                        <a href="mailto:luh20123@gmail.com" class="contact-link">
                             <span class="contact-icon">✉️</span>
-                            matheus.gotardo@email.com
+                            luh20123@gmail.com
                         </a>
-                        <a href="https://linkedin.com/in/matheusgotardo" class="contact-link" target="_blank">
+                        <a href="https://www.linkedin.com/in/matheus-gotardo-680b3232b" class="contact-link" target="_blank">
                             <span class="contact-icon">💼</span>
                             LinkedIn
                         </a>
-                        <a href="https://github.com/matheusgotardo" class="contact-link" target="_blank">
+                        <a href="https://github.com/GotardoN1" class="contact-link" target="_blank">
                             <span class="contact-icon">💻</span>
                             GitHub
                         </a>
                     </div>
+                    <div class="github-badge">
+                        <img src="https://komarev.com/ghpvc/?username=GotardoN1&label=Profile+Views&color=00D4FF&style=flat-square&labelColor=1a1a2e" alt="Profile Views" />
+                    </div>
                 </div>
-                <form class="contact-form">
+                <form class="contact-form" id="contactForm">
                     <div class="form-group">
                         <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
                     </div>
@@ -225,11 +368,23 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Matheus Gotardo. Todos os direitos reservados.</p>
+            <div class="footer-content">
+                <div class="footer-badge">
+                    <span class="pulse-dot"></span> Online
+                </div>
+                <p>&copy; 2025 Matheus Gotardo. Todos os direitos reservados.</p>
+                <div class="footer-quote">
+                    ✨ "Transformando dados em decisões; infraestrutura em confiança." ✨
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/GotardoN1" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/matheus-gotardo-680b3232b" target="_blank">LinkedIn</a>
+                    <a href="mailto:luh20123@gmail.com">Email</a>
+                </div>
+            </div>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
 </html>
-
