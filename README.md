@@ -92,11 +92,10 @@ Aberto a colaborar em projetos inovadores! 🚀
 
 <br><br>
 
-<!-- Stats via shields.io (alternativo confiável) -->
+<!-- Stats via shields.io -->
 <img src="https://img.shields.io/github/followers/GotardoN1?label=Seguidores&style=for-the-badge&labelColor=181717&color=00D4FF" alt="Followers">
 <img src="https://img.shields.io/github/stars/GotardoN1/GotardoN1?label=Estrelas&style=for-the-badge&labelColor=181717&color=00D4FF" alt="Stars">
-<img src="https://img.shields.io/github/repos/GotardoN1/GotardoN1?label=Repositórios&style=for-the-badge&labelColor=181717&color=00D4FF" alt="Repos">
-<img src="https://img.shields.io/github/languages/count/GotardoN1/GotardoN1?label=Linguagens&style=for-the-badge&labelColor=181717&color=00D4FF" alt="Languages">
+<img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/GotardoN1&label=Repositórios&query=$.public_repos&color=00D4FF&labelColor=181717&style=for-the-badge" alt="Repos">
 
 </div>
 
