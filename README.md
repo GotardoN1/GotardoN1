@@ -231,9 +231,7 @@ Jogo de memória para crianças de 9 a 12 anos, com sequências de cores e sons.
 
 </div>
 
-<details>
-<summary><b>👉 Onde eu uso cada coisa</b></summary>
-<br>
+#### Onde eu uso cada coisa
 
 | Área | Ferramentas | Exemplo |
 |---|---|---|
@@ -242,8 +240,6 @@ Jogo de memória para crianças de 9 a 12 anos, com sequências de cores e sons.
 | Dados & BI | PostgreSQL, MySQL, Power BI | Data warehouse em esquema estrela |
 | Automação | PowerShell, Node.js, GitHub Actions | Instalação e atualização sem intervenção |
 | Software | TypeScript, React, Electron, C#, Python | Intranet, apps desktop, OCR |
-
-</details>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/divisoria-dark.svg"><img src="assets/divisoria-light.svg" width="100%" alt=""></picture>
 
@@ -267,8 +263,8 @@ Jogo de memória para crianças de 9 a 12 anos, com sequências de cores e sons.
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GotardoN1/GotardoN1/main/output/github-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/GotardoN1/GotardoN1/main/output/github-snake.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições">
+  <source media="(prefers-color-scheme: dark)" srcset="output/github-snake-dark.svg">
+  <img src="output/github-snake.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições">
 </picture>
 
 </div>

@@ -44,7 +44,7 @@ function definirTema(t) {
 // a cobrinha acompanha o tema do site, não só o do sistema
 function atualizarCobra() {
   const img = $('.cobra__img');
-  if (img) img.src = `https://raw.githubusercontent.com/${perfil.usuario}/${perfil.usuario}/main/output/github-snake${temaAtual() === 'dark' ? '-dark' : ''}.svg`;
+  if (img) img.src = `output/github-snake${temaAtual() === 'dark' ? '-dark' : ''}.svg`;
 }
 const alternarTema = () => definirTema(temaAtual() === 'dark' ? 'light' : 'dark');
 
