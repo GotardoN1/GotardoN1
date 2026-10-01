@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" aria-hidden="true">
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="#30363d" stroke-width="1.5"/>
+  <circle cy="12" r="4" fill="#2dd4bf"><animate attributeName="cx" values="0;1200" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cy="12" r="3" fill="#f5b84b"><animate attributeName="cx" values="1200;0" dur="9s" repeatCount="indefinite"/></circle>
+</svg>

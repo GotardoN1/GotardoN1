@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Matheus Gotardo — Infraestrutura, Dados e Automação">
+  <title>Matheus Gotardo — Infraestrutura, Dados e Automação</title>
+  <defs>
+    <pattern id="grade" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#30363d"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#161b22" stop-opacity="1"/>
+      <stop offset=".55" stop-color="#161b22" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#161b22" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="338" rx="16" fill="#161b22" stroke="#30363d"/>
+  <rect x="1" y="1" width="1198" height="338" rx="16" fill="url(#grade)"/>
+  <g>
+    <path id="e0" d="M950,170 L860,70" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#f5b84b">
+      <animateMotion dur="2.4s" repeatCount="indefinite" begin="0.00s"><mpath href="#e0"/></animateMotion>
+    </circle>
+    <path id="e1" d="M950,170 L1060,92" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#2dd4bf">
+      <animateMotion dur="3.1s" repeatCount="indefinite" begin="0.37s" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e1"/></animateMotion>
+    </circle>
+    <path id="e2" d="M950,170 L760,190" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#2dd4bf">
+      <animateMotion dur="3.8s" repeatCount="indefinite" begin="0.74s"><mpath href="#e2"/></animateMotion>
+    </circle>
+    <path id="e3" d="M950,170 L1120,210" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#f5b84b">
+      <animateMotion dur="4.5s" repeatCount="indefinite" begin="1.11s" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e3"/></animateMotion>
+    </circle>
+    <path id="e4" d="M950,170 L1030,280" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#2dd4bf">
+      <animateMotion dur="2.4s" repeatCount="indefinite" begin="1.48s"><mpath href="#e4"/></animateMotion>
+    </circle>
+    <path id="e5" d="M950,170 L840,280" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#2dd4bf">
+      <animateMotion dur="3.1s" repeatCount="indefinite" begin="1.85s" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e5"/></animateMotion>
+    </circle>
+    <path id="e6" d="M860,70 L1060,92" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#f5b84b">
+      <animateMotion dur="3.8s" repeatCount="indefinite" begin="2.22s"><mpath href="#e6"/></animateMotion>
+    </circle>
+    <path id="e7" d="M760,190 L840,280" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#2dd4bf">
+      <animateMotion dur="4.5s" repeatCount="indefinite" begin="2.59s" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e7"/></animateMotion>
+    </circle>
+    <path id="e8" d="M1120,210 L1030,280" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#2dd4bf">
+      <animateMotion dur="2.4s" repeatCount="indefinite" begin="2.96s"><mpath href="#e8"/></animateMotion>
+    </circle>
+    <path id="e9" d="M860,70 L760,190" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#f5b84b">
+      <animateMotion dur="3.1s" repeatCount="indefinite" begin="3.33s" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e9"/></animateMotion>
+    </circle>
+    <path id="e10" d="M1060,92 L1120,210" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <circle r="3.2" fill="#2dd4bf">
+      <animateMotion dur="3.8s" repeatCount="indefinite" begin="3.70s"><mpath href="#e10"/></animateMotion>
+    </circle>
+  </g>
+  <g>
+    <g>
+      <circle cx="860" cy="70" r="26" fill="#1f2630" stroke="#30363d" stroke-width="1.5"/>
+      <circle cx="860" cy="70" r="5" fill="#2dd4bf">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="860" y="114" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">Infra</text>
+    </g>
+    <g>
+      <circle cx="1060" cy="92" r="22" fill="#1f2630" stroke="#30363d" stroke-width="1.5"/>
+      <circle cx="1060" cy="92" r="5" fill="#f5b84b">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1060" y="132" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">Redes</text>
+    </g>
+    <g>
+      <circle cx="760" cy="190" r="24" fill="#1f2630" stroke="#30363d" stroke-width="1.5"/>
+      <circle cx="760" cy="190" r="5" fill="#2dd4bf">
+        <animate attributeName="opacity" values="1;.25;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="760" y="232" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">Dados</text>
+    </g>
+    <circle cx="950" cy="170" r="44" fill="none" stroke="#2dd4bf" stroke-opacity=".35">
+      <animate attributeName="r" values="38;56;38" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".5;0;.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="170" r="34" fill="#2dd4bf"/>
+    <text x="950" y="177" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#0d1117">mg</text>
+    <g>
+      <circle cx="1120" cy="210" r="24" fill="#1f2630" stroke="#30363d" stroke-width="1.5"/>
+      <circle cx="1120" cy="210" r="5" fill="#2dd4bf">
+        <animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1120" y="252" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">Automação</text>
+    </g>
+    <g>
+      <circle cx="840" cy="280" r="20" fill="#1f2630" stroke="#30363d" stroke-width="1.5"/>
+      <circle cx="840" cy="280" r="5" fill="#f5b84b">
+        <animate attributeName="opacity" values="1;.25;1" dur="3.1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="840" y="318" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">BI</text>
+    </g>
+    <g>
+      <circle cx="1030" cy="280" r="22" fill="#1f2630" stroke="#30363d" stroke-width="1.5"/>
+      <circle cx="1030" cy="280" r="5" fill="#2dd4bf">
+        <animate attributeName="opacity" values="1;.25;1" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1030" y="320" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">Web</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="700" height="338" rx="16" fill="url(#fade)"/>
+
+  <text x="64" y="84" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#8b949e">~/gotardo <tspan fill="#2dd4bf">$</tspan> whoami<tspan fill="#2dd4bf">▌<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+  <text x="62" y="152" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="#e6edf3" letter-spacing="-1">Matheus Gotardo</text>
+  <text x="64" y="212" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#2dd4bf" opacity="0">Infraestrutura &amp; Redes<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0;0.025;0.225;0.25;1" dur="12s" repeatCount="indefinite"/></text>
+    <text x="64" y="212" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#2dd4bf" opacity="0">Dados &amp; Business Intelligence<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.275;0.475;0.5;1" dur="12s" repeatCount="indefinite"/></text>
+    <text x="64" y="212" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#2dd4bf" opacity="0">Automação &amp; Software<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.525;0.725;0.75;1" dur="12s" repeatCount="indefinite"/></text>
+    <text x="64" y="212" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#2dd4bf" opacity="0">Sistemas que rodam em produção<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.75;0.775;0.975;1;1" dur="12s" repeatCount="indefinite"/></text>
+  <text x="64" y="262" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" fill="#8b949e">Eu projeto, automatizo e mantenho no ar os sistemas</text>
+  <text x="64" y="288" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" fill="#8b949e">que fazem uma empresa funcionar no dia a dia.</text>
+</svg>

@@ -10,24 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      actions: read
     steps:
+      # a credencial precisa ficar disponível para o git push no fim
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
       - name: Generate snake
         uses: Platane/snk@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           github_user_name: GotardoN1
           outputs: |
             ./output/github-snake.svg
-      - name: Setup git
+            ./output/github-snake-dark.svg?palette=github-dark
+      - name: Commit snake
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      - name: Commit snake
-        run: |
-          git add ./output/github-snake.svg
+          git add ./output
           git commit -m "chore: update snake animation" || echo "Nothing to update"
           git push
