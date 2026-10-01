@@ -99,9 +99,61 @@ function divisoria(t) {
 `;
 }
 
-mkdirSync('assets', { recursive: true });
+// Cabeçalhos dos READMEs de cada projeto (usados pelos outros repositórios)
+const cores = {
+  dark: { accent: '#2dd4bf', warm: '#f5b84b', violet: '#a78bfa', pink: '#f472b6', sky: '#38bdf8', stone: '#a8a29e' },
+  light: { accent: '#0f766e', warm: '#b45309', violet: '#6d28d9', pink: '#be185d', sky: '#0369a1', stone: '#57534e' },
+};
+const projetos = [
+  { slug: 'ocr-obras', repo: 'medicao-obras-ocr', icone: '🏗️', cor: 'violet', titulo: 'Medição de obras com OCR', sub: 'Do caderno de campo ao orçamento pela tabela SINAPI', stack: ['C++', 'Qt', 'Tesseract OCR', 'MySQL'] },
+  { slug: 'ocr-obras-estudo', repo: 'medicao-obras-ocr-estudo', icone: '📑', cor: 'violet', titulo: 'Medição de obras com OCR: o estudo', sub: 'Problema, pesquisa de campo e engenharia da solução', stack: ['UML', 'Kanban', 'Plano de testes'] },
+  { slug: 'bi-energia', repo: 'bi-eficiencia-energetica', icone: '☀️', cor: 'sky', titulo: 'BI e eficiência energética', sub: 'Energia solar numa planta industrial em Salvador/BA', stack: ['MySQL', 'Star Schema', 'Python', 'Power BI'] },
+  { slug: 'recs', repo: 'sustentabilidade-energetica-recs', icone: '🌱', cor: 'sky', titulo: 'Sustentabilidade energética e RECs', sub: 'Dados para decidir pela energia renovável', stack: ['Python', 'MySQL', 'Power BI', 'ETL'] },
+  { slug: 'trena', repo: 'trena-digital-ux-ml', icone: '📏', cor: 'sky', titulo: 'Trena digital com Machine Learning', sub: 'Medidas escritas à mão viram dados no relatório', stack: ['Python', 'scikit-learn', 'SVM', 'Figma'] },
+  { slug: 'colina', repo: 'rede-supermercado-colina', icone: '🛒', cor: 'accent', titulo: 'Rede do Supermercado Colina', sub: 'Três unidades interligadas, com IPv6, serviços e IoT', stack: ['Cisco Packet Tracer', 'IPv6', 'IoT'] },
+  { slug: 'grafo', repo: 'grafo-social', icone: '🕸️', cor: 'stone', titulo: 'Grafo Social', sub: 'A teoria dos grafos por trás do Facebook', stack: ['Python', 'NetworkX', 'TAO', 'GraphQL'] },
+  { slug: 'o3de', repo: 'pong-o3de', icone: '🏓', cor: 'stone', titulo: 'Pong no Open 3D Engine', sub: 'Estudo do motor O3DE com um Pong em Python', stack: ['O3DE', 'Python', 'Gems'] },
+  { slug: 'sequencia', repo: 'jogo-repita-a-sequencia', icone: '🧠', cor: 'violet', titulo: 'Repita a Sequência', sub: 'Jogo de memória com cores e sons, em C', stack: ['C', 'Windows', 'Console'] },
+];
+
+function cabecalhoProjeto(p, t, c) {
+  const cor = c[p.cor];
+  let x = 64;
+  const chips = p.stack.map((s) => {
+    const w = s.length * 8.4 + 24;
+    const g = `<g><rect x="${x}" y="196" width="${w}" height="28" rx="14" fill="none" stroke="${t.line}"/><text x="${x + w / 2}" y="215" text-anchor="middle" font-family="${MONO}" font-size="14" fill="${t.muted}">${s}</text></g>`;
+    x += w + 8;
+    return g;
+  }).join('');
+  // mini-rede decorativa à direita
+  const pts = [[970, 70], [1070, 58], [1150, 118], [1030, 150], [1120, 202], [950, 196]];
+  const lig = [[0, 1], [1, 2], [0, 3], [3, 2], [3, 4], [3, 5], [2, 4]];
+  const linhas = lig.map(([a, b], i) => `<path id="l${i}" d="M${pts[a][0]},${pts[a][1]} L${pts[b][0]},${pts[b][1]}" stroke="${t.line}" stroke-width="1.5"/>`).join('');
+  const pacotes = lig.map((_, i) => `<circle r="3" fill="${i % 2 ? t.warm : cor}"><animateMotion dur="${(2.2 + (i % 3) * 0.6).toFixed(1)}s" begin="${(i * 0.3).toFixed(1)}s" repeatCount="indefinite"><mpath href="#l${i}"/></animateMotion></circle>`).join('');
+  const nos = pts.map(([px, py], i) => `<circle cx="${px}" cy="${py}" r="${i === 3 ? 12 : 7}" fill="${i === 3 ? cor : t.node}" stroke="${i === 3 ? cor : t.line}" stroke-width="1.5">${i === 3 ? `<animate attributeName="r" values="11;14;11" dur="2.4s" repeatCount="indefinite"/>` : ''}</circle>`).join('');
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="${p.titulo}">
+  <title>${p.titulo}</title>
+  <defs>
+    <pattern id="grade" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="${t.line}"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="${t.card}"/><stop offset=".6" stop-color="${t.card}" stop-opacity=".9"/><stop offset="1" stop-color="${t.card}" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="258" rx="16" fill="${t.card}" stroke="${t.line}"/>
+  <rect x="1" y="1" width="1198" height="258" rx="16" fill="url(#grade)"/>
+  <g>${linhas}${pacotes}${nos}</g>
+  <rect x="1" y="1" width="880" height="258" rx="16" fill="url(#fade)"/>
+  <rect x="1" y="1" width="6" height="258" rx="3" fill="${cor}"/>
+  <text x="64" y="62" font-family="${MONO}" font-size="15" fill="${t.muted}">GotardoN1 <tspan fill="${cor}">/</tspan> ${p.repo}</text>
+  <text x="62" y="124" font-family="${SANS}" font-size="40" font-weight="800" fill="${t.text}" letter-spacing="-.5"><tspan>${p.icone}</tspan> ${p.titulo}</text>
+  <text x="64" y="162" font-family="${SANS}" font-size="20" fill="${t.muted}">${p.sub}</text>
+  ${chips}
+</svg>
+`;
+}
+
+mkdirSync('assets/projetos', { recursive: true });
 for (const [nome, t] of Object.entries(temas)) {
   writeFileSync(`assets/cabecalho-${nome}.svg`, cabecalho(t));
   writeFileSync(`assets/divisoria-${nome}.svg`, divisoria(t));
+  for (const p of projetos) writeFileSync(`assets/projetos/${p.slug}-${nome}.svg`, cabecalhoProjeto(p, t, cores[nome]));
 }
-console.log('SVGs gerados em assets/');
+console.log('SVGs gerados em assets/ e assets/projetos/');

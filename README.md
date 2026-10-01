@@ -128,7 +128,7 @@ Site da equipe **Me Sinto em Casa Esports**.
 ### 📈 Dados e BI
 
 <details>
-<summary><b>☀️ BI aplicado à eficiência energética</b> · <code>MySQL</code> <code>Star Schema</code> <code>Power BI</code></summary>
+<summary><b>☀️ BI aplicado à eficiência energética</b> · <code>MySQL</code> <code>Star Schema</code> <code>Python</code> <code>Power BI</code></summary>
 <br>
 
 Análise da viabilidade de energia solar fotovoltaica numa planta industrial em Salvador/BA. Data warehouse em **MySQL** com **esquema estrela**, ETL em SQL e dashboards em **Power BI** (cubo OLAP).
@@ -138,7 +138,7 @@ Análise da viabilidade de energia solar fotovoltaica numa planta industrial em 
 </details>
 
 <details>
-<summary><b>🌱 Sustentabilidade energética e RECs</b> · <code>Engenharia de dados</code> <code>BI</code></summary>
+<summary><b>🌱 Sustentabilidade energética e RECs</b> · <code>Python</code> <code>MySQL</code> <code>Power BI</code></summary>
 <br>
 
 Estudo do consumo de energia e da adoção de **Certificados de Energia Renovável (RECs)**. Usa modelagem de dados e BI para apoiar decisões sustentáveis.
@@ -158,10 +158,10 @@ Proposta de trena eletrônica que usa **SVM** para reconhecer medidas escritas �
 </details>
 
 <details>
-<summary><b>🏗️ Medição e orçamento de obras com OCR</b> · <code>Python</code> <code>OCR</code> <code>SINAPI</code></summary>
+<summary><b>🏗️ Medição e orçamento de obras com OCR</b> · TCC · <code>C++</code> <code>Qt</code> <code>Tesseract</code> <code>MySQL</code></summary>
 <br>
 
-Aplicação desktop para pequenas construtoras e autônomos. Ela lê com **OCR** as medições anotadas em caderno e gera relatórios e orçamentos com base na tabela **SINAPI**.
+Aplicação desktop em **C++/Qt** para pequenas construtoras e autônomos (TCC, 2023). Ela lê com **OCR (Tesseract)** as medições anotadas em caderno e gera relatórios e orçamentos com base na tabela **SINAPI**.
 
 **[Sistema →](https://github.com/GotardoN1/medicao-obras-ocr)** · **[Estudo e apresentação](https://github.com/GotardoN1/medicao-obras-ocr-estudo)**
 
@@ -170,7 +170,7 @@ Aplicação desktop para pequenas construtoras e autônomos. Ela lê com **OCR**
 ### 🌐 Infraestrutura e estudos
 
 <details>
-<summary><b>🛒 Rede do Supermercado Colina</b> · <code>Cisco Packet Tracer</code> <code>LAN</code> <code>IoT</code></summary>
+<summary><b>🛒 Rede do Supermercado Colina</b> · <code>Cisco Packet Tracer</code> <code>IPv6</code> <code>IoT</code></summary>
 <br>
 
 Planejamento e simulação da rede completa de uma rede de supermercados fictícia em Curitiba. São três unidades interligadas, com LAN e dispositivos IoT.
@@ -180,7 +180,7 @@ Planejamento e simulação da rede completa de uma rede de supermercados fictíc
 </details>
 
 <details>
-<summary><b>🕸️ Grafo Social</b> · <code>Python</code> <code>Teoria dos grafos</code></summary>
+<summary><b>🕸️ Grafo Social</b> · <code>Python</code> <code>NetworkX</code> <code>Teoria dos grafos</code></summary>
 <br>
 
 Estudo de como a teoria dos grafos sustenta o Facebook: da modelagem matemática a tecnologias de backend como **TAO** e **GraphQL**.
@@ -190,7 +190,7 @@ Estudo de como a teoria dos grafos sustenta o Facebook: da modelagem matemática
 </details>
 
 <details>
-<summary><b>🏓 Pong no Open 3D Engine</b> · <code>O3DE</code> · em equipe</summary>
+<summary><b>🏓 Pong no Open 3D Engine</b> · <code>O3DE</code> <code>Python</code> · em equipe</summary>
 <br>
 
 Estudo do motor open source **O3DE** (Linux Foundation) com a implementação de um Pong. Feito com Fabrício Corrêa e Nicole Diniz.
@@ -216,7 +216,7 @@ Jogo de memória para crianças de 9 a 12 anos, com sequências de cores e sons.
 <div align="center">
 
 **Linguagens e web**<br><br>
-<img src="https://skillicons.dev/icons?i=py,cs,ts,js,c,html,css,react,nodejs,electron&perline=10" alt="Python, C#, TypeScript, JavaScript, C, HTML, CSS, React, Node.js, Electron">
+<img src="https://skillicons.dev/icons?i=py,cs,cpp,ts,js,c,html,css,react,nodejs,electron&perline=11" alt="Python, C#, C++, TypeScript, JavaScript, C, HTML, CSS, React, Node.js, Electron">
 
 **Dados, infraestrutura e automação**<br><br>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,docker,linux,ubuntu,windows,powershell,bash,git,githubactions,grafana&perline=11" alt="PostgreSQL, MySQL, Docker, Linux, Ubuntu, Windows, PowerShell, Bash, Git, GitHub Actions, Grafana">
@@ -239,7 +239,7 @@ Jogo de memória para crianças de 9 a 12 anos, com sequências de cores e sons.
 | Redes | Cisco, NAT, monitoramento | Status e operadora de link de cada loja num painel Grafana |
 | Dados & BI | PostgreSQL, MySQL, Power BI | Data warehouse em esquema estrela |
 | Automação | PowerShell, Node.js, GitHub Actions | Instalação e atualização sem intervenção |
-| Software | TypeScript, React, Electron, C#, Python | Intranet, apps desktop, OCR |
+| Software | TypeScript, React, Electron, C#, C++, Python | Intranet, apps desktop, OCR |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/divisoria-dark.svg"><img src="assets/divisoria-light.svg" width="100%" alt=""></picture>
 

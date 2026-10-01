@@ -121,7 +121,7 @@ export const projetos = [
     resumo: 'Data warehouse e dashboards para avaliar energia solar numa planta industrial em Salvador/BA.',
     descricao: 'Estudo de viabilidade de energia solar fotovoltaica em dois prédios de uma planta industrial: o administrativo e a unidade de produção principal.',
     destaques: ['Data warehouse em MySQL com esquema estrela', 'ETL em SQL', 'Cubo OLAP e dashboards no Power BI'],
-    stack: ['MySQL', 'SQL', 'Star Schema', 'Power BI'],
+    stack: ['MySQL', 'Star Schema', 'Python', 'Power BI'],
   },
   {
     slug: 'recs',
@@ -132,7 +132,7 @@ export const projetos = [
     resumo: 'Engenharia de dados e BI para analisar a adoção de Certificados de Energia Renovável.',
     descricao: 'Analisa o consumo de energia e a adoção de RECs (Certificados de Energia Renovável) a partir de dados regionais, para apoiar decisões sustentáveis.',
     destaques: ['Filtragem de dados regionais', 'Modelagem de dados para BI'],
-    stack: ['Engenharia de dados', 'BI', 'SQL'],
+    stack: ['Python', 'MySQL', 'Power BI', 'ETL'],
   },
   {
     slug: 'trena',
@@ -153,9 +153,9 @@ export const projetos = [
     repo: 'medicao-obras-ocr',
     extra: { rotulo: 'Estudo e apresentação', url: 'https://github.com/GotardoN1/medicao-obras-ocr-estudo' },
     resumo: 'App desktop que lê medições anotadas em caderno e gera relatórios e orçamentos pela tabela SINAPI.',
-    descricao: 'Feito para pequenas construtoras e autônomos, que ainda medem obras em caderno e calculadora. O modo semiautomático lê as anotações com OCR e organiza os dados pelas regras da tabela SINAPI.',
-    destaques: ['OCR de medições manuscritas', 'Orçamento com base na tabela SINAPI', 'Pesquisa de campo com empresas do setor'],
-    stack: ['Python', 'OCR', 'Desktop', 'SINAPI'],
+    descricao: 'TCC de Ciência da Computação (2023). Feito para pequenas construtoras e autônomos, que ainda medem obras em caderno e calculadora. O modo semiautomático lê as anotações com OCR e organiza os dados pelas regras da tabela SINAPI.',
+    destaques: ['OCR de medições manuscritas com Tesseract', 'Orçamento com base na tabela SINAPI', 'Relatórios em PDF e CSV; contas PF e PJ com níveis de acesso', 'Pesquisa de campo com empresas do setor'],
+    stack: ['C++', 'Qt', 'Tesseract OCR', 'MySQL', 'SINAPI'],
   },
   {
     slug: 'colina',
@@ -165,8 +165,8 @@ export const projetos = [
     repo: 'rede-supermercado-colina',
     resumo: 'Projeto e simulação da rede de três unidades de um supermercado fictício em Curitiba, com IoT.',
     descricao: 'Planejamento e simulação de uma infraestrutura de rede completa: matriz e filiais interligadas, LAN e dispositivos IoT num cenário empresarial realista.',
-    destaques: ['Três unidades interconectadas', 'LAN, roteamento e IoT', 'Simulação no Cisco Packet Tracer'],
-    stack: ['Cisco Packet Tracer', 'Redes', 'IoT'],
+    destaques: ['Três unidades interligadas', 'IPv6, DNS, WEB, SMTP e POP3', 'IoT: portas automáticas e ar-condicionado pela rede', 'Simulação no Cisco Packet Tracer'],
+    stack: ['Cisco Packet Tracer', 'IPv6', 'IoT'],
   },
   {
     slug: 'grafo',
@@ -177,7 +177,7 @@ export const projetos = [
     resumo: 'Como a teoria dos grafos sustenta o Facebook: da matemática ao TAO e ao GraphQL.',
     descricao: 'Estudo aprofundado do "grafo social": modelagem matemática de pessoas e conexões e as tecnologias de backend da Meta que o sustentam.',
     destaques: ['Teoria dos grafos aplicada', 'TAO: cache distribuído de objetos e associações', 'GraphQL'],
-    stack: ['Python', 'Grafos', 'GraphQL'],
+    stack: ['Python', 'NetworkX', 'Grafos', 'GraphQL'],
   },
   {
     slug: 'o3de',
@@ -188,7 +188,7 @@ export const projetos = [
     resumo: 'Estudo do motor open source O3DE com a implementação de um Pong, feito em equipe.',
     descricao: 'Estudo do Open 3D Engine, motor 3D modular e multiplataforma mantido pela Linux Foundation, com a implementação de um Pong.',
     destaques: ['Motor 3D open source (Apache 2.0)', 'Trabalho em equipe'],
-    stack: ['O3DE', 'Game dev'],
+    stack: ['O3DE', 'Python', 'Game dev'],
     equipe: 'Fabrício Corrêa, Matheus Gotardo e Nicole Diniz',
   },
   {
@@ -216,5 +216,5 @@ export const stack = [
   { grupo: 'Redes', itens: ['Cisco', 'NAT', 'Monitoramento', 'Grafana'] },
   { grupo: 'Dados & BI', itens: ['PostgreSQL', 'MySQL', 'Power BI', 'SQL'] },
   { grupo: 'Automação', itens: ['PowerShell', 'Node.js', 'GitHub Actions', 'Bash'] },
-  { grupo: 'Software', itens: ['TypeScript', 'React', 'Electron', 'C#', 'Python', 'C'] },
+  { grupo: 'Software', itens: ['TypeScript', 'React', 'Electron', 'C#', 'C++', 'Python', 'C'] },
 ];
