@@ -133,7 +133,7 @@ Site da equipe **Me Sinto em Casa Esports**.
 
 Análise da viabilidade de energia solar fotovoltaica numa planta industrial em Salvador/BA. Data warehouse em **MySQL** com **esquema estrela**, ETL em SQL e dashboards em **Power BI** (cubo OLAP).
 
-**[Ver repositório →](https://github.com/GotardoN1/Business-Intelligence-aplicado-Efici-ncia-Energ-tica)**
+**[Ver repositório →](https://github.com/GotardoN1/bi-eficiencia-energetica)**
 
 </details>
 
@@ -143,7 +143,7 @@ Análise da viabilidade de energia solar fotovoltaica numa planta industrial em 
 
 Estudo do consumo de energia e da adoção de **Certificados de Energia Renovável (RECs)**. Usa modelagem de dados e BI para apoiar decisões sustentáveis.
 
-**[Ver repositório →](https://github.com/GotardoN1/Sustentabilidade-Energ-tica-e-An-lise-de-REC-s)**
+**[Ver repositório →](https://github.com/GotardoN1/sustentabilidade-energetica-recs)**
 
 </details>
 
@@ -163,7 +163,7 @@ Proposta de trena eletrônica que usa **SVM** para reconhecer medidas escritas �
 
 Aplicação desktop para pequenas construtoras e autônomos. Ela lê com **OCR** as medições anotadas em caderno e gera relatórios e orçamentos com base na tabela **SINAPI**.
 
-**[Sistema →](https://github.com/GotardoN1/Sistema-de-Medi-o-e-Or-amento-de-Obras-com-OCR)** · **[Estudo e apresentação](https://github.com/GotardoN1/Aplica-o-Desktop-de-Medi-o-e-Or-amento-de-Obras-com-OCR)**
+**[Sistema →](https://github.com/GotardoN1/medicao-obras-ocr)** · **[Estudo e apresentação](https://github.com/GotardoN1/medicao-obras-ocr-estudo)**
 
 </details>
 
@@ -175,7 +175,7 @@ Aplicação desktop para pequenas construtoras e autônomos. Ela lê com **OCR**
 
 Planejamento e simulação da rede completa de uma rede de supermercados fictícia em Curitiba. São três unidades interligadas, com LAN e dispositivos IoT.
 
-**[Ver repositório →](https://github.com/GotardoN1/projeto-redes-cisco-packet-tracer)**
+**[Ver repositório →](https://github.com/GotardoN1/rede-supermercado-colina)**
 
 </details>
 
@@ -185,7 +185,7 @@ Planejamento e simulação da rede completa de uma rede de supermercados fictíc
 
 Estudo de como a teoria dos grafos sustenta o Facebook: da modelagem matemática a tecnologias de backend como **TAO** e **GraphQL**.
 
-**[Ver repositório →](https://github.com/GotardoN1/Grafo-Social)**
+**[Ver repositório →](https://github.com/GotardoN1/grafo-social)**
 
 </details>
 
@@ -195,7 +195,7 @@ Estudo de como a teoria dos grafos sustenta o Facebook: da modelagem matemática
 
 Estudo do motor open source **O3DE** (Linux Foundation) com a implementação de um Pong. Feito com Fabrício Corrêa e Nicole Diniz.
 
-**[Ver repositório →](https://github.com/GotardoN1/Open-3D-Engine-O3DE-Project---Pong-Implementation)**
+**[Ver repositório →](https://github.com/GotardoN1/pong-o3de)**
 
 </details>
 
@@ -205,7 +205,7 @@ Estudo do motor open source **O3DE** (Linux Foundation) com a implementação de
 
 Jogo de memória para crianças de 9 a 12 anos, com sequências de cores e sons. Passou por planejamento, requisitos, fluxograma e implementação em **C**.
 
-**[Ver repositório →](https://github.com/GotardoN1/Jogo-Recreativo-Repita-a-Sequ-ncia)**
+**[Ver repositório →](https://github.com/GotardoN1/jogo-repita-a-sequencia)**
 
 </details>
 
