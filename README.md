@@ -106,12 +106,12 @@ Ele mostra apenas o que o Windows consegue informar. Quando um dado não existe,
 </details>
 
 <details>
-<summary><b>📊 PlaneX</b> · site de automação de planilhas · <code>HTML</code> <code>CSS</code> <code>JavaScript</code></summary>
+<summary><b>📊 Plannex</b> · site de cálculos judiciais e automação de planilhas · <code>HTML</code> <code>CSS</code> <code>JavaScript</code></summary>
 <br>
 
-Site de serviço para automatizar planilhas de Excel e Google Sheets. Tem uma **demonstração interativa** que mostra uma planilha manual virando relatório automático.
+Site de **cálculos judiciais e financeiros** feitos por economistas, com uma segunda frente de **automação de planilhas** no Excel. Duas demonstrações animadas, com dados fictícios, mostram uma memória de cálculo indo dos documentos ao parecer e uma planilha manual virando um fluxo automatizado.
 
-**[Abrir site →](https://gotardon1.github.io/PlaneX/)** · **[Repositório](https://github.com/GotardoN1/PlaneX)**
+**[Abrir site →](https://misty-king-c67fe.luh20123.workers.dev/)** · **[Repositório](https://github.com/GotardoN1/Plannex)**
 
 </details>
 
